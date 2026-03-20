@@ -1,14 +1,11 @@
-
 #include <stdio.h>
-
-#include "structure.h"
 #include "student.h"
 
-int main( void ) {
+int main() {
     // Create and initialise a student variable
     Student student = {
         .name = "John Smith",
-        .id = 56789,
+        .id = 1236,
         .marks = {75.0, 68.5, 81.0}
     };
     
